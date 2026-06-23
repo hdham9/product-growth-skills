@@ -1,0 +1,22 @@
+{
+  "name": "growth-skills",
+  "owner": {
+    "name": "Harry Hamilton"
+  },
+  "description": "Product growth skills for Claude — diagnose where to focus your growth efforts.",
+  "plugins": [
+    {
+      "name": "product-growth",
+      "source": "./plugins/product-growth",
+      "description": "Diagnose where a product should focus its growth efforts; produces a driver-tree growth map and a ranked shortlist of focus areas with a top 3.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry Hamilton"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/hdham9/growth-skills",
+      "keywords": ["growth", "product-growth", "driver-tree", "north-star-metric", "pm", "founder"],
+      "category": "productivity"
+    }
+  ]
+}

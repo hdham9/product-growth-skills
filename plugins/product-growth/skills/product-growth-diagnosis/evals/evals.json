@@ -1,0 +1,29 @@
+{
+  "skill_name": "product-growth-diagnosis",
+  "evals": [
+    {
+      "id": 0,
+      "name": "token-ai-superdesign",
+      "prompt": "I'm working on growth at Superdesign (app.superdesign.dev) — an AI product design agent: type a prompt, get UI mockups and components on an infinite canvas. It's free to start, and coding agents like Claude Code and Cursor can use us as a skill too. We get decent free signups and some SEO traffic from our prompt library, but lots of people try it once and don't come back, and paid conversion is low. Where should we focus to actually grow? I don't have all the exact numbers handy.",
+      "expected_output": "A markdown growth-diagnosis file: a driver tree rooted at an appropriate objective using the token-based AI template (revenue = accounts x tokens x price, with contribution margin and inference cost called out), H/M/L annotations given missing numbers, a ranked shortlist scored on leverage/influence/compounding, and a top 3. Should flag activation (time-to-first-valuable-output) and retention (output quality) given the once-and-don't-return symptom, and consider non-product levers. Should NOT just optimize acquisition.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "name": "b2b-saas-tracksuit",
+      "prompt": "I'm working on growth at Tracksuit — continuous brand tracking for marketers, an always-on dashboard far more affordable than traditional brand tracking (~$20k/yr vs $100k+). B2B SaaS, demo-led, sold to brand/marketing leaders. We've grown fast but I want to figure out where to focus next. Sales wants more demo leads, product wants more data/insights features, and some customers don't renew because they can't show ROI internally. Where should we focus our growth efforts? I've got CRM and product-usage data but not every number to hand.",
+      "expected_output": "A markdown growth-diagnosis file using the B2B SaaS template (ARR bridge: new/expansion/contraction/churn; NRR as key node). Driver tree 3-5 layers, H/M/L annotations, shortlist scored on leverage/influence/compounding, top 3. Should weigh the competing pet theories (more leads vs features vs churn/ROI) against leverage+influence rather than defaulting to 'more leads,' and likely surface retention/ROI-demonstration as high-compounding. Considers non-product levers (CS, pricing, marketing).",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "name": "marketplace-cleaners",
+      "prompt": "We're an early marketplace connecting local home cleaners with homeowners, live in 3 cities for ~8 months. Steady homeowner searches but a lot don't book — not enough cleaners in their area/time. We've been spending on Google/FB ads to bring in more homeowners but bookings aren't moving. Should we keep acquiring demand or focus elsewhere? Not sure what metrics matter at this stage.",
+      "expected_output": "A markdown growth-diagnosis file using the marketplace template (GMV = buyers x orders x AOV; liquidity/fill-rate and supply as key nodes). Should diagnose that supply/liquidity is the binding constraint, not more demand acquisition, and steer away from spending more on homeowner ads. Driver tree 3-5 layers with H/M/L, shortlist on leverage/influence/compounding, top 3. Should name fill rate / 'zeros' and consider non-ads levers for supply.",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}
