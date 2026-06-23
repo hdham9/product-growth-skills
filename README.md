@@ -26,8 +26,8 @@ token-based AI products.
 In Claude Code (or Cowork), add this marketplace and install the plugin:
 
 ```
-/plugin marketplace add hdham9/growth-skills
-/plugin install product-growth@growth-skills
+/plugin marketplace add hdham9/product-growth-skills
+/plugin install product-growth@product-growth-skills
 ```
 
 Then just describe your situation — e.g. *"we've plateaued at 8k MAU and I don't know what to focus
@@ -42,7 +42,7 @@ are separate jobs.
 ## Repository layout
 
 ```
-growth-skills/
+product-growth-skills/
 ├── .claude-plugin/
 │   └── marketplace.json          # the marketplace catalog
 └── plugins/

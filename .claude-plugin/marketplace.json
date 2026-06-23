@@ -1,5 +1,5 @@
 {
-  "name": "growth-skills",
+  "name": "product-growth-skills",
   "owner": {
     "name": "Harry Hamilton"
   },
@@ -14,7 +14,7 @@
         "name": "Harry Hamilton"
       },
       "license": "Apache-2.0",
-      "homepage": "https://github.com/hdham9/growth-skills",
+      "homepage": "https://github.com/hdham9/product-growth-skills",
       "keywords": ["growth", "product-growth", "driver-tree", "north-star-metric", "pm", "founder"],
       "category": "productivity"
     }
