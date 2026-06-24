@@ -3,7 +3,7 @@
   "owner": {
     "name": "Harry Hamilton"
   },
-  "description": "Product growth skills for Claude — diagnose where to focus your growth efforts.",
+  "description": "Product growth skills for Claude — diagnose where to focus your growth, then design the experiments to get there.",
   "plugins": [
     {
       "name": "product-growth",

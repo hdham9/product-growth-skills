@@ -40,7 +40,7 @@ toolbox.
 
 ## Install
 
-In Claude Code (or Cowork), add this marketplace and install the plugin:
+In Claude Code (or Cowork), add this marketplace and install the plugins:
 
 ```
 /plugin marketplace add hdham9/product-growth-skills
@@ -51,11 +51,19 @@ In Claude Code (or Cowork), add this marketplace and install the plugin:
 Then just describe your situation — e.g. *"we've plateaued at 8k MAU and I don't know what to focus
 on to grow"* — and the skill will run a diagnosis.
 
-## What it does NOT do
+## How they fit together
 
-It diagnoses *where* to focus. It deliberately stops before designing or running specific
-experiments, setting up analytics/instrumentation, writing copy, or brainstorming channels — those
-are separate jobs.
+Use them in sequence: **`product-growth`** tells you *where* to focus, then **`experiment-design`**
+turns that focus area into *what to test*. The diagnosis ends by handing off to the experiment
+design; the experiment design starts from a focus area (which you can paste from the diagnosis or
+just describe).
+
+## What these skills don't do
+
+They help you decide where to grow and what to test — then deliberately stop at a few seams. They
+don't run the experiments for you, set up analytics or instrumentation, write marketing/pricing copy,
+or analyze results after a test has finished. Those are separate jobs (a results-readout skill may
+join the suite later).
 
 ## Repository layout
 
