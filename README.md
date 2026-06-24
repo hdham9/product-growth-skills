@@ -1,4 +1,4 @@
-# Growth Skills
+# Product Growth Skills
 
 A public [Claude](https://claude.com) plugin marketplace of product-growth skills.
 
