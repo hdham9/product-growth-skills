@@ -2,7 +2,8 @@
 
 A public [Claude](https://claude.com) plugin marketplace of product-growth skills.
 
-Currently includes one plugin:
+Currently includes two plugins, designed to work in sequence — diagnose where to focus, then design
+what to test:
 
 ### `product-growth` — Product Growth Diagnosis
 
@@ -21,6 +22,22 @@ It ships with driver-tree templates for 9 business models: B2B SaaS, B2C subscri
 marketplace, e-commerce/DTC, fintech/transactional, ad-supported, social/UGC, usage-based, and
 token-based AI products.
 
+### `experiment-design` — Growth Experiment Design
+
+Picks up where the diagnosis leaves off. Given a **focus area** (e.g. activation, retention,
+free→paid), it:
+
+1. Brainstorms candidate experiments through five lenses (mechanism, history, product, customer,
+   market — including an optional scan for real-world examples from comparable products).
+2. Scores them with **ICE** (Impact, Confidence, Ease) and shortlists.
+3. Recommends a **top-3 portfolio** balanced across impact, learning, and speed.
+4. Designs each one to a sufficient standard — hypothesis, primary metric, 1–3 intervention options,
+   guardrails, risks, sample/duration, and **right-sized stats** (it flags when a powered A/B test
+   doesn't fit your traffic and gives minimum-viable guidance instead).
+
+It ships with two references: a playbook of common experiments by focus area, and a methods + stats
+toolbox.
+
 ## Install
 
 In Claude Code (or Cowork), add this marketplace and install the plugin:
@@ -28,6 +45,7 @@ In Claude Code (or Cowork), add this marketplace and install the plugin:
 ```
 /plugin marketplace add hdham9/product-growth-skills
 /plugin install product-growth@product-growth-skills
+/plugin install experiment-design@product-growth-skills
 ```
 
 Then just describe your situation — e.g. *"we've plateaued at 8k MAU and I don't know what to focus
@@ -46,14 +64,23 @@ product-growth-skills/
 ├── .claude-plugin/
 │   └── marketplace.json          # the marketplace catalog
 └── plugins/
-    └── product-growth/
+    ├── product-growth/
+    │   ├── .claude-plugin/
+    │   │   └── plugin.json
+    │   └── skills/
+    │       └── product-growth-diagnosis/
+    │           ├── SKILL.md
+    │           └── references/
+    │               └── driver-trees.md        # driver-tree templates by business model
+    └── experiment-design/
         ├── .claude-plugin/
-        │   └── plugin.json        # the plugin manifest
+        │   └── plugin.json
         └── skills/
-            └── product-growth-diagnosis/
-                ├── SKILL.md        # the skill
+            └── growth-experiment-design/
+                ├── SKILL.md
                 └── references/
-                    └── driver-trees.md   # driver-tree templates by business model
+                    ├── experiment-patterns.md  # common experiments by focus area
+                    └── experiment-methods.md   # methods + right-sized stats
 ```
 
 ## License

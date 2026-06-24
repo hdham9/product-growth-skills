@@ -17,6 +17,19 @@
       "homepage": "https://github.com/hdham9/product-growth-skills",
       "keywords": ["growth", "product-growth", "driver-tree", "north-star-metric", "pm", "founder"],
       "category": "productivity"
+    },
+    {
+      "name": "experiment-design",
+      "source": "./plugins/experiment-design",
+      "description": "Brainstorm, shortlist, and design growth experiments for a chosen focus area; produces an ICE-scored shortlist, a top-3 experiment portfolio, and a full design for each. Picks up where a growth diagnosis leaves off.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry Hamilton"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/hdham9/product-growth-skills",
+      "keywords": ["growth", "experiment", "ab-test", "ice-scoring", "product-experiments", "pm", "founder"],
+      "category": "productivity"
     }
   ]
 }
