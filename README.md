@@ -5,7 +5,7 @@ A public [Claude](https://claude.com) plugin marketplace of product-growth skill
 Currently includes two plugins, designed to work in sequence — diagnose where to focus, then design
 what to test:
 
-### `product-growth` — Product Growth Diagnosis
+### `product-growth-diagnosis` — Product Growth Diagnosis
 
 Helps a founder, PM, or growth person figure out **where to focus their product growth
 efforts**. It runs a structured diagnosis:
@@ -44,7 +44,7 @@ In Claude Code (or Cowork), add this marketplace and install the plugins:
 
 ```
 /plugin marketplace add hdham9/product-growth-skills
-/plugin install product-growth@product-growth-skills
+/plugin install product-growth-diagnosis@product-growth-skills
 /plugin install experiment-design@product-growth-skills
 ```
 
@@ -53,7 +53,7 @@ on to grow"* — and the skill will run a diagnosis.
 
 ## How they fit together
 
-Use them in sequence: **`product-growth`** tells you *where* to focus, then **`experiment-design`**
+Use them in sequence: **`product-growth-diagnosis`** tells you *where* to focus, then **`experiment-design`**
 turns that focus area into *what to test*. The diagnosis ends by handing off to the experiment
 design; the experiment design starts from a focus area (which you can paste from the diagnosis or
 just describe).
